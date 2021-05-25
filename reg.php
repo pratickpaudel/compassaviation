@@ -7,7 +7,7 @@ $city = $_POST['city']
 $postal_code = $_POST['postal code']
 $DoB = $_POST['dob']
 
-$email_from = 'info@compassaviation.com';
+$email_from = 'info@https://pratickpaudel.github.io/compassaviation/';
 
 $email_subject = 'New Form Submission';
 
@@ -20,7 +20,7 @@ $email_body = "First Name: $first_name.\n".
               "DoB: $DoB.\n";
 
 
-$to = 'compassaviation@gmail.com';
+$to = 'dhakalmanish20@gmail.com';
 
 $headers = "From: $email_from \r\n";
 
